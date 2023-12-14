@@ -16,9 +16,14 @@
     #genre_serie_responsive, #genre_film_responsive{
         padding-top: 2em;
     }
+    #b_serie{
+        margin-top: 2em;
+    }
+   /* mettre le carousel avec 2 image dans le format responsive */
 }
 
 
+/* penser à mettre la vidéo en background */
 
 /* pas à supprimer en dessous */
 nav{
@@ -53,37 +58,26 @@ input{
 input[type="search"] {
     outline: none
 }
-#bg-image{
-    background-image: url(./landscape/JUMANJI.svg);
-    background-size:cover;
-    background-position: center;
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: auto;
+
+main{
+    position: relative;
+    overflow: hidden;
 }
 
-#westworld{
-    background-image: url(./landscape/WESTWORLD.svg);
-    background-size:cover;
-    background-position: center;
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: auto;
+main video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
-
-#anarchist{
-    background-image: url(./landscape/anarchist.svg);
-    background-size:cover;
-    background-position: center;
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: auto;
+main .container {
+    position: relative;
+    z-index: 2;
 }
-
 
 #jumanji{
     font-family: 'Gluten', cursive;
