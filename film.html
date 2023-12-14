@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Gluten&display=swap" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <header>
+    <nav class="navbar navbar-expand navbar-light bg-dark">
+      <div
+        class="collapse navbar-collapse d-flex flex-wrap justify-content-between bg-dark"
+        id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="navbar-brand" href="./index.html"
+              ><img src="./icon_image/bedflix-logo.png" alt="bedflix-logo" id="bedflix"
+            /></a>
+          </li>
+          <li class="nav-item mt-2">
+            <a class="nav-link text-white link-danger" href="./index.html">Accueil</a>
+          </li>
+          <li class="nav-item mt-2">
+            <a class="nav-link text-white link-danger" href="./serie.html">Séries</a>
+          </li>
+          <li class="nav-item mt-2">
+            <a class="nav-link text-white link-danger" href="./film.html">Film</a>
+          </li>
+        </ul>
+  
+        <div class="d-flex" id="endnavbar">
+          <form class="d-flex border border-2 border-white">
+            <a href="#" class="lien_loupe">
+              <img
+                src="./icon_image/magnifying-glass-solid.png"
+                alt="Loupe"
+                class="m-1"
+                id="loupe" />
+            </a>
+            <input
+              class="form bg-dark text-white"
+              type="search"
+              placeholder="Titre, genres,..."
+              aria-label="Search" />
+          </form>
+          <a href="#" class="bell">
+            <img src="./icon_image/bell-solid.png" alt="notif" class="m-1" id="notif" />
+          </a>
+          <a href="#" class="profil">
+            <img src="./icon_image/Rectangle 3.png" alt="profil" class="mx-auto" id="user" />
+          </a>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <body>
+
+    <main>
+      <div class="bg-image background-container d-flex flex-column justify-content-around" id="anarchist">
+        <div class="d-flex ps-5 mt-0" id="genre_film_responsive">
+        <h3 class="text-white me-2">Film</h3>
+        <nav> 
+          <ul class="mt-1"> 
+           <li> <a href="#" class="border text-white text-decoration-none p-1 link-secondary">Genres &#9660;</a> 
+            <div> 
+             <ul class="mt-2 me-1"> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Action</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Suspense</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Thriller</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Animation</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Comédie</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Drame</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Science-fiction</a> </li> 
+             </ul> 
+             <ul> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Horreur</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Romance</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Aventure</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Documentaire</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Fantaisie</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Policier</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Mystère</a> </li> 
+             </ul> 
+             <ul> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">romantique</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Historique</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Western</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Famille</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Guerre</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Sport</a> </li> 
+              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Enquête</a> </li> 
+             </ul> 
+            </div> </li> 
+          </ul> 
+         </nav>  
+        </div>
+        <!-- série genre menu -->
+
+        <div class="d-flex p-5">
+            <img src="./icon_image/b logo.png" alt="b logo" class="" />
+            <h1 class="text-white">FILM</h1>
+          </div>
+
+        <!--roulette en dessous -->
+
+        <div class="container mx-auto h-25 mb-3">
+          <div class="ps-0 text-white display-5">Film du moment</div>
+          <div id="netflixCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active m-0">
+                <img src="./landscape/card-17.png" class="d-inline w-25 img-fluid" alt="Image 1" />
+                <img src="./landscape/card-1.png" class="d-inline w-25 img-fluid" alt="Image 2" />
+                <img src="./landscape/card-19.png" class="d-inline w-25 img-fluid" alt="Image 3" />
+                <img src="./landscape/card-20.png" class="d-inline w-25 img-fluid" alt="Image 4" />
+              </div>
+              <div class="carousel-item">
+                <img src="./landscape/card-21.png" class="d-inline w-25 img-fluid" alt="Image 1" />
+                <img src="./landscape/card-22.png" class="d-inline w-25 img-fluid" alt="Image 2" />
+                <img src="./landscape/card-23.png" class="d-inline w-25 img-fluid" alt="Image 3" />
+                <img src="./landscape/card-24.png" class="d-inline w-25 img-fluid" alt="Image 3" />
+              </div>
+              <div class="carousel-item">
+                <img src="./landscape/card-25.png" class="d-inline w-25 img-fluid" alt="Image 1" />
+                <img src="./landscape/card-26.png" class="d-inline w-25 img-fluid" alt="Image 2" />
+                <img src="./landscape/card-27.png" class="d-inline w-25 img-fluid" alt="Image 3" />
+                <img src="./landscape/card-28.png" class="d-inline w-25 img-fluid" alt="Image 3" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="./landscape/card-29.png" class="d-inline w-25 img-fluid" alt="Image 1" />
+                <img src="./landscape/card-7.png" class="d-inline w-25 img-fluid" alt="Image 2" />
+                <img src="./landscape/card-13.png" class="d-inline w-25 img-fluid" alt="Image 3" />
+                <img src="./landscape/card-16.png" class="d-inline w-25 img-fluid" alt="Image 3" />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#netflixCarousel"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Précédent</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#netflixCarousel"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Suivant</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-dark">
+      <!-- faire le footer ici -->
+
+      <div class="container d-flex text-center pt-5">
+        <div class="col">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Audiodescription</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Relations Investisseurs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Confidentialité</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Nous contacter</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light border w-50 mx-auto">Code de service</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">© 1997-2023 Bedflix, Inc</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Centre d'aide</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Recrutement</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Informations légales</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Choix liés à la pub</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Cartes cadeaux</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Boutique Netflix</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Préférences de cookies</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Press</a></li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Conditions d'utilisations</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Mentions légales</a>
+            </li>
+            <li class="d-flex justify-content-evenly mt-4">
+              <a href=""><img src="./icon_image/icons8-facebook-24.png" alt="" /></a>
+              <a href=""><img src="./icon_image/icons8-instagram-24.png" alt="" /></a
+              ><a href=""><img src="./icon_image/icons8-youtube-24.png" alt="" /></a>
+              <a href=""><img src="./icon_image/icons8-linkedin-24.png" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

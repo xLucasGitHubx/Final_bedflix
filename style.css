@@ -1,0 +1,142 @@
+@media (max-width: 784px) {
+    #navbarSupportedContent{
+        margin-top: 3.5em;
+        padding-bottom: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+    #endnavbar, .test{
+        display: flex;
+        justify-content: center;
+        margin-left: 2em;
+    }
+    .lien_loupe{
+        margin-left: 0;
+    }
+    #genre_serie_responsive, #genre_film_responsive{
+        padding-top: 2em;
+    }
+}
+
+
+
+/* pas à supprimer en dessous */
+nav{
+    height: 4em;
+}
+
+nav img{
+    height: 3em;
+    width: auto;
+    margin-left: 2em;
+}
+
+#notif,#loupe{
+    filter: invert(1);
+    height: 2.5em;
+    width: auto;
+    
+}
+#endnavbar{
+    height: 3em;
+    margin-right: 2em;
+}
+input{
+    border: 0;
+}
+.bell, .profil{
+    margin-left: 1em;
+}
+.bell:hover, #loupe:hover, #bedflix:hover, #user:hover{
+    filter: invert(0.2);
+}
+input[type="search"] {
+    outline: none
+}
+#bg-image{
+    background-image: url(./landscape/JUMANJI.svg);
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+}
+
+#westworld{
+    background-image: url(./landscape/WESTWORLD.svg);
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+}
+
+
+#anarchist{
+    background-image: url(./landscape/anarchist.svg);
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+}
+
+
+#jumanji{
+    font-family: 'Gluten', cursive;
+}
+
+footer li a{
+    filter: invert(0.2);
+}
+
+footer li a:hover{
+    filter: invert(0);
+}
+
+#p-accueil{
+        font-size: 0.9rem;
+}
+
+
+
+
+#netflixCarousel img{
+    max-width: 24%;
+}
+
+
+/* test en dessous */
+
+
+ nav ul {
+    margin: 0;
+    padding: 5px;
+ }
+ nav ul li {
+    display: inline;
+    position: relative;
+ }
+ nav ul li div {
+    position: absolute;
+    left: -9999px;
+    width:300px;
+ }
+ nav ul li:hover div {
+    left: 0;
+ }
+ nav ul li ul li {
+    display: list-item;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ nav ul li ul{
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+ }
+
