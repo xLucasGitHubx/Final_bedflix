@@ -14,16 +14,13 @@
         margin-left: 0;
     }
     #genre_serie_responsive, #genre_film_responsive{
-        padding-top: 2em;
+        padding-top: 4em;
     }
     #b_serie{
         margin-top: 2em;
     }
    /* mettre le carousel avec 2 image dans le format responsive */
 }
-
-
-/* penser à mettre la vidéo en background */
 
 /* pas à supprimer en dessous */
 nav{
