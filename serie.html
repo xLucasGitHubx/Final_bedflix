@@ -20,7 +20,6 @@
   </head>
 
   <header>
-    
     <nav class="navbar navbar-expand navbar-light bg-dark">
       <div
         class="collapse navbar-collapse d-flex flex-wrap justify-content-between bg-dark"
@@ -41,7 +40,7 @@
             <a class="nav-link text-white link-danger" href="./film.html">Film</a>
           </li>
         </ul>
-  
+
         <div class="d-flex" id="endnavbar">
           <form class="d-flex border border-2 border-white">
             <a href="#" class="lien_loupe">
@@ -66,110 +65,238 @@
         </div>
       </div>
     </nav>
-
   </header>
 
   <body>
-
     <main class="overlay">
       <video id="background-video" autoplay loop muted>
-        <source src="./landscape_video/WESTWORLD.mp4" type="video/mp4">
+        <source src="./landscape_video/WESTWORLD.mp4" type="video/mp4" />
       </video>
-        <div class="d-flex ps-5 mt-2" id="genre_serie_responsive">
+      <div class="d-flex ps-5 mt-2" id="genre_serie_responsive">
         <h3 class="text-white me-2">Série</h3>
-        <nav> 
-          <ul class="mt-1"> 
-           <li> <a href="#" class="border text-white text-decoration-none p-1 link-secondary">Genres &#9660;</a> 
-            <div> 
-             <ul class="mt-2 me-1"> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Action</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Suspense</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Thriller</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Animation</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Comédie</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Drame</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Science-fiction</a> </li> 
-             </ul> 
-             <ul> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Horreur</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Romance</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Aventure</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Documentaire</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Fantaisie</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Policier</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Mystère</a> </li> 
-             </ul> 
-             <ul> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">romantique</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Historique</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Western</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Famille</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Guerre</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Sport</a> </li> 
-              <li> <a href="#" class=" text-white text-decoration-none link-secondary">Enquête</a> </li> 
-             </ul> 
-            </div> </li> 
-          </ul> 
-         </nav>  
-        </div>
-        <!-- série genre menu -->
-
-        <div class="d-flex p-5">
-            <img src="./icon_image/b logo.png" alt="b logo" class="" />
-            <h1 class="text-white">SÉRIE</h1>
-          </div>
-
-        <!--roulette en dessous -->
-
-        <div class="container mx-auto h-25 mb-3">
-          <div class="ps-0 text-white display-5">Série du moment</div>
-          <div id="netflixCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active m-0">
-                <img src="./landscape/card-17.png" class="d-inline w-25 img" alt="Image 1" />
-                <img src="./landscape/card-1.png" class="d-inline w-25 img" alt="Image 2" />
-                <img src="./landscape/card-19.png" class="d-inline w-25 img" alt="Image 3" />
-                <img src="./landscape/card-20.png" class="d-inline w-25 img" alt="Image 4" />
+        <nav>
+          <ul class="mt-1">
+            <li>
+              <a href="#" class="border text-white text-decoration-none p-1"
+                >Genres &#9660;</a
+              >
+              <div class="bg-dark mt-1" id="listGenreSerie">
+                <ul class="px-3">
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Action</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Suspense</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Thriller</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Animation</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Comédie</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Drame</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Science-fiction</a
+                    >
+                  </li>
+                </ul>
+                <ul class="px-3">
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Horreur</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Romance</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Aventure</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Documentaire</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Fantaisie</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Policier</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Mystère</a
+                    >
+                  </li>
+                </ul>
+                <ul class="px-3">
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >romantique</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Historique</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Western</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Famille</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Guerre</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Sport</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      >Enquête</a
+                    >
+                  </li>
+                </ul>
               </div>
-              <div class="carousel-item">
-                <img src="./landscape/card-21.png" class="d-inline w-25 img" alt="Image 1" />
-                <img src="./landscape/card-22.png" class="d-inline w-25 img" alt="Image 2" />
-                <img src="./landscape/card-23.png" class="d-inline w-25 img" alt="Image 3" />
-                <img src="./landscape/card-24.png" class="d-inline w-25 img" alt="Image 3" />
-              </div>
-              <div class="carousel-item">
-                <img src="./landscape/card-25.png" class="d-inline w-25 img" alt="Image 1" />
-                <img src="./landscape/card-26.png" class="d-inline w-25 img" alt="Image 2" />
-                <img src="./landscape/card-27.png" class="d-inline w-25 img" alt="Image 3" />
-                <img src="./landscape/card-28.png" class="d-inline w-25 img" alt="Image 3" />
-              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- série genre menu -->
 
-              <div class="carousel-item">
-                <img src="./landscape/card-29.png" class="d-inline w-25 img" alt="Image 1" />
-                <img src="./landscape/card-7.png" class="d-inline w-25 img" alt="Image 2" />
-                <img src="./landscape/card-13.png" class="d-inline w-25 img" alt="Image 3" />
-                <img src="./landscape/card-16.png" class="d-inline w-25 img" alt="Image 3" />
-              </div>
+      <div class="d-flex p-5">
+        <img src="./icon_image/b logo.png" alt="b logo" class="" />
+        <h1 class="text-white">SÉRIE</h1>
+      </div>
+
+      <!--roulette en dessous -->
+
+      <div class="container mx-auto h-25 mb-3">
+        <div class="ps-0 text-white display-5">Série du moment</div>
+        <div id="netflixCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active m-0">
+              <img src="./landscape/card-17.png" class="d-inline w-25 img" alt="Image 1" />
+              <img src="./landscape/card-1.png" class="d-inline w-25 img" alt="Image 2" />
+              <img src="./landscape/card-19.png" class="d-inline w-25 img" alt="Image 3" />
+              <img src="./landscape/card-20.png" class="d-inline w-25 img" alt="Image 4" />
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#netflixCarousel"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Précédent</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#netflixCarousel"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Suivant</span>
-            </button>
+            <div class="carousel-item">
+              <img src="./landscape/card-21.png" class="d-inline w-25 img" alt="Image 1" />
+              <img src="./landscape/card-22.png" class="d-inline w-25 img" alt="Image 2" />
+              <img src="./landscape/card-23.png" class="d-inline w-25 img" alt="Image 3" />
+              <img src="./landscape/card-24.png" class="d-inline w-25 img" alt="Image 3" />
+            </div>
+            <div class="carousel-item">
+              <img src="./landscape/card-25.png" class="d-inline w-25 img" alt="Image 1" />
+              <img src="./landscape/card-26.png" class="d-inline w-25 img" alt="Image 2" />
+              <img src="./landscape/card-27.png" class="d-inline w-25 img" alt="Image 3" />
+              <img src="./landscape/card-28.png" class="d-inline w-25 img" alt="Image 3" />
+            </div>
+
+            <div class="carousel-item">
+              <img src="./landscape/card-29.png" class="d-inline w-25 img" alt="Image 1" />
+              <img src="./landscape/card-7.png" class="d-inline w-25 img" alt="Image 2" />
+              <img src="./landscape/card-13.png" class="d-inline w-25 img" alt="Image 3" />
+              <img src="./landscape/card-16.png" class="d-inline w-25 img" alt="Image 3" />
+            </div>
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#netflixCarousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Précédent</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#netflixCarousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Suivant</span>
+          </button>
         </div>
       </div>
+      <!-- fin roulette + serie du moment au dessus -->
     </main>
 
     <footer class="bg-dark">
